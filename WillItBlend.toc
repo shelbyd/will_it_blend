@@ -11,6 +11,8 @@ libs\ace3\AceConsole-3.0\AceConsole-3.0.xml
 libs\ace3\AceEvent-3.0\AceEvent-3.0.xml
 #@end-no-lib-strip@
 
+src\SimulationCraftProfile.lua
+
 embeds.xml
 
 main.lua

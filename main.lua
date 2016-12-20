@@ -14,9 +14,9 @@ end
 
 function HandleBlendChatCommand(input)
   -- local CharacterProfile = GetCharacterProfile()
-  -- local SimulationCraftProfile = SimulationCraftProfile(CharacterProfile)
-  -- ShowCopyableText(SimulationCraftProfile:ToString())
-  ShowCopyableText("This is copyable!")
+  -- local SimulationCraftProfile = SimulationCraftProfile:New(CharacterProfile)
+  local SimulationCraftProfile = SimulationCraftProfile:New()
+  ShowCopyableText(SimulationCraftProfile:ToString())
 end
 
 function ShowCopyableText(text)
