@@ -1,0 +1,5 @@
+## Interface: 70100
+## Title: Will it Blend?
+## Notes: Generate SimulationCraft profiles to test if gear is an upgrade for you.
+WillItBlend.lua
+WillItBlend.xml
