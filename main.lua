@@ -13,9 +13,8 @@ function WillItBlend:OnDisable()
 end
 
 function HandleBlendChatCommand(input)
-  -- local CharacterProfile = GetCharacterProfile()
-  -- local SimulationCraftProfile = SimulationCraftProfile:New(CharacterProfile)
-  local SimulationCraftProfile = SimulationCraftProfile:New()
+  local CharacterProfile = CharacterProfile:New(WowAPI)
+  local SimulationCraftProfile = SimulationCraftProfile:New(CharacterProfile)
   ShowCopyableText(SimulationCraftProfile:ToString())
 end
 

@@ -11,7 +11,9 @@ libs\ace3\AceConsole-3.0\AceConsole-3.0.xml
 libs\ace3\AceEvent-3.0\AceEvent-3.0.xml
 #@end-no-lib-strip@
 
+src\CharacterProfile.lua
 src\SimulationCraftProfile.lua
+src\WowAPI.lua
 
 embeds.xml
 
